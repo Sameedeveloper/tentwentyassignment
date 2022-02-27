@@ -1,0 +1,735 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../public/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../public/fonts/Cormorant-SemiBold.ttf');
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.mainLandingPage {
+  background-image: url('../public/MobileImages/MainLandingPageBg.jpg');
+  max-width: 470px;
+}
+
+.headerMobile {
+  display: flex;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.desktopHeaderPart {
+  display: none;
+}
+
+.headerMobileSecond {
+  display: none;
+}
+
+.headerMobile > img {
+  margin: 30.55px 26.48% 81.21px 10.28%;
+  max-width: 69px;
+}
+
+#meetingBtn {
+  max-width: 149px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 4px 12px;
+
+  border: 1px solid #ffffff;
+
+  font-family: Poppins;
+
+  font-size: 15px;
+
+  /* identical to box height, or 160% */
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 26px;
+  margin-right: 17px;
+}
+
+.headerMobile > a :nth-child(1) {
+  margin: 34px 7.4% 73px 0px;
+}
+
+.bottomSectionMLP {
+  margin: 321px 0px 0px 0px;
+  height: 383px;
+  padding: 100px 0px 51px 0px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 114.38%
+  );
+}
+
+.bottomSectionMLP > h1 {
+  font-family: Cormorant;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 38px;
+
+  /* identical to box height, or 190% */
+  text-transform: capitalize;
+
+  color: #ffffff;
+
+  margin: 0px 48.5% 20px 8.94%;
+}
+
+.bottomSectionMLP > h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 58px;
+
+  /* or 116% */
+  text-transform: capitalize;
+
+  color: #ffffff;
+  margin: 0px 6.38% 0px 8.94%;
+}
+
+/* Second view height css */
+
+.secondViewHeight {
+  position: relative;
+  padding: 86.85px 0px 0px 0px;
+  background: #e9ddcf;
+  height: 921px;
+}
+
+#mountainImage {
+  position: absolute;
+  width: 304.22px;
+  height: 218.65px;
+  left: -32.86px;
+  overflow-x: hidden;
+}
+
+#firstTagLine {
+  position: absolute;
+  margin: 0px 3.19vw 0px 10.64vw;
+  top: 271px;
+  font-family: Poppins;
+  font-size: 30px;
+
+  /* or 160% */
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+#tenseGuyImage {
+  position: absolute;
+  top: 414.58px;
+  left: 40.64vw;
+  height: 428.27px;
+  z-index: 2;
+  overflow-x: hidden;
+}
+#tenseGuyImageDesktop {
+  display: none;
+}
+#businessHeading {
+  position: absolute;
+  top: 580px;
+  left: -24.5vw;
+  width: 503px;
+  font-family: Poppins;
+  font-size: 120px;
+
+  /* identical to box height, or 82% */
+  text-transform: capitalize;
+
+  color: #000000;
+
+  opacity: 0.1;
+}
+
+#backpackWomanImage {
+  position: absolute;
+  height: 223.26px;
+  width: 165.16px;
+  top: 732px;
+  left: 10.64vw;
+  z-index: 3;
+}
+#coupleTreesImageDesktop {
+  display: none;
+}
+
+#coupleTreesImage {
+  position: absolute;
+  top: 921px;
+}
+/* final sections */
+
+.finalSection {
+  height: 962px;
+  background: #07424d;
+  position: relative;
+  top: 605px;
+  padding: 70px 0px 0px 0px;
+  overflow-x: hidden;
+}
+
+.finalSection > h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+
+  /* or 136% */
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  margin-bottom: 32px;
+  height: 76px;
+  margin-left: 7.23vw;
+  margin-right: 7.23vw;
+}
+
+#linksContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 45px;
+}
+
+.links {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height, or 119% */
+  text-align: right;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#sunVector {
+  position: absolute;
+  top: 242px;
+}
+
+#containerCoupleImage {
+  position: absolute;
+  top: 263.33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 15.98vw 0px 15.98vw;
+  z-index: 5;
+}
+
+#smilingCoupleImage {
+  background: #c4c4c4;
+  transform: rotate(7.42deg);
+}
+
+#inquirySticker {
+  position: absolute;
+  width: 121px;
+  height: 121px;
+  z-index: 4;
+  background: #cb9f77;
+
+  font-family: Poppins;
+  font-size: 16px;
+
+  /* or 137% */
+  text-align: center;
+  padding-top: 39px;
+  padding-bottom: 38px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  border-radius: 50%;
+  right: 6.6vw;
+  bottom: 35px;
+}
+
+#diversifyingTag {
+  position: absolute;
+  top: 590px;
+  left: 4vw;
+  font-family: Cormorant;
+  font-weight: lighter;
+  font-size: 100px;
+  overflow-x: hidden;
+  /* identical to box height, or 168% */
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  z-index: -0;
+}
+
+#diversifyingForTag {
+  display: none;
+}
+#secureTag {
+  position: absolute;
+  top: 690px;
+  left: -16vw;
+  font-family: Cormorant;
+  font-weight: lighter;
+  font-size: 100px;
+  overflow-x: hidden;
+  /* identical to box height, or 168% */
+  text-align: center;
+  text-transform: capitalize;
+  white-space: nowrap;
+  color: #ffffff;
+  margin-bottom: 36px;
+}
+
+#secureTagDesktop {
+  display: none;
+}
+#diversifyingLine {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 38px;
+
+  /* identical to box height, or 190% */
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  position: absolute;
+  bottom: 77px;
+  margin: 0px 11.06vw;
+  white-space: nowrap;
+}
+
+.finalSection > .headerMobile {
+  display: none;
+}
+
+/*Desktop Media Queries */
+
+@media (min-width: 1200px) {
+  .desktopLayoutSet {
+    display: flex;
+    overflow-y: auto;
+    overflow-x: scroll;
+  }
+  .mainLandingPage {
+    background-image: url('../public/DesktopImages/MainScreenBackground.jpg');
+    max-width: 1440px;
+    height: 100vh;
+    overflow-y: clip;
+  }
+
+  .headerMobile {
+    display: flex;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0) 114.38%
+    );
+    height: 33.5vh;
+  }
+  .desktopHeaderPart {
+    display: block;
+    margin-top: 4.1vh;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+
+  .desktopExtraLinks {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+
+    /* identical to box height, or 127% */
+
+    color: #ffffff;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  #aboutLink {
+    margin-left: 302px;
+  }
+
+  .headerMobile > img {
+    margin: 3.96vh 161.46px 26.86vh 83.31px;
+    width: 69.23px;
+    height: 27.24px;
+  }
+
+  #meetingBtn {
+    max-width: 149px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px 12px;
+
+    border: 1px solid #ffffff;
+
+    font-family: Poppins;
+
+    font-size: 15px;
+
+    /* identical to box height, or 160% */
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 4.12vh;
+    margin-right: 70px;
+    margin-left: 23px;
+    white-space: nowrap;
+  }
+
+  #dropdownIcon {
+    display: none;
+  }
+
+  .bottomSectionMLP {
+    margin: 32.81vh 0px 0px 0px;
+    padding: 0px 0px 51px 0px;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0) 114.38%
+    );
+    overflow-y: hidden !important;
+  }
+
+  .bottomSectionMLP > h1 {
+    max-width: 695px;
+
+    font-family: Cormorant;
+    font-size: 20px;
+    line-height: 38px;
+
+    /* identical to box height, or 190% */
+    text-transform: capitalize;
+
+    color: #ffffff;
+  }
+
+  .bottomSectionMLP > h2 {
+    max-width: 493px;
+
+    font-family: Poppins;
+    font-size: 60px;
+    line-height: 68px;
+
+    /* or 113% */
+    text-transform: capitalize;
+
+    color: #ffffff;
+  }
+
+  /* Second view height css */
+
+  .secondViewHeight {
+    padding: 0px 0px 0px 0px;
+    background: #e9ddcf;
+    max-width: 1440px;
+    height: 100vh;
+    position: relative;
+    overflow-y: clip;
+  }
+
+  .headerMobileSecond {
+    display: flex;
+
+    height: 33.5vh;
+  }
+
+  .headerMobileSecond > div > a {
+    color: #000000 !important;
+  }
+  .headerMobileSecond > a {
+    color: #000000 !important;
+    border-color: #000000 !important;
+  }
+
+  #dropdownIconSecond > img {
+    filter: invert(1) !important;
+  }
+  .headerMobileSecond > img {
+    margin: 3.96vh 161.46px 26.86vh 83.31px;
+    width: 69.23px;
+    height: 27.24px;
+    filter: invert(1);
+  }
+
+  #mountainImage {
+    position: absolute;
+    top: 33.63vh;
+    width: 711px;
+    height: 511px;
+    left: -97.22px;
+    z-index: 4;
+  }
+
+  #firstTagLine {
+    position: absolute;
+    top: 14.55vh;
+    left: 519px;
+
+    font-family: Poppins;
+    width: 643px;
+    font-size: 40px;
+    margin: 0px;
+    /* or 120% */
+    text-transform: capitalize;
+
+    color: #000000;
+  }
+
+  #tenseGuyImage {
+    display: block;
+    position: absolute;
+    top: 70.43vh;
+    right: 318.1px;
+    width: 387.76px;
+    height: 511px;
+
+    transform: rotate(-0.27deg);
+    z-index: 4;
+    overflow-y: hidden;
+  }
+
+  #dropdownIconSecond {
+    display: none;
+  }
+
+  #searchIconSecondView {
+    filter: invert(1);
+  }
+  #businessHeading {
+    position: absolute;
+    font-family: Poppins;
+    top: 34.88vh;
+    font-size: 470px;
+    line-height: 480px;
+    left: -20px;
+    width: 2258px;
+    /* or 20% */
+    text-transform: capitalize;
+    color: #fff;
+    opacity: 1;
+    z-index: 3;
+  }
+  #businessHeading::before {
+    content: attr(data-heading);
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 63.3%;
+    color: #000;
+  }
+
+  #backpackWomanImage {
+    position: absolute;
+    width: 231.01px;
+    height: 312.26px;
+    top: 33.61vh;
+    left: 1163.2px;
+  }
+
+  #coupleTreesImage {
+    display: none;
+  }
+
+  #coupleTreesImageDesktop {
+    display: block;
+    position: absolute;
+    width: 727px;
+    height: 1024px;
+    left: 1410px;
+    top: 0px;
+    z-index: 2;
+    overflow-y: hidden;
+  }
+  /* final sections */
+
+  .finalSection {
+    height: 100vh;
+    background: #07424d;
+    position: relative;
+    width: 1440px;
+    top: 0px;
+    left: 700px;
+    overflow-x: visible;
+    overflow-y: clip;
+    padding: 0px;
+  }
+
+  .finalSection > h2 {
+    position: absolute;
+    top: 16.89vh;
+    left: 519px;
+    margin: 0px auto 0px auto;
+  }
+
+  #linksContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    gap: 22px;
+    position: absolute;
+    z-index: 4;
+    left: 500px;
+    top: 29.38vh;
+  }
+
+  .links {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* identical to box height, or 119% */
+    text-align: right;
+
+    color: #ffffff;
+  }
+
+  #sunVectorDesktop {
+    position: absolute;
+    top: 10.05vh;
+    left: 30px;
+  }
+
+  #containerCoupleImage {
+    position: absolute;
+    top: 29.38vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    left: 500px;
+    z-index: 3;
+  }
+
+  #smilingCoupleImage {
+    background: #c4c4c4;
+    transform: rotate(7.42deg);
+  }
+
+  #inquirySticker {
+    position: absolute;
+    width: 121px;
+    height: 121px;
+    z-index: 4;
+    background: #cb9f77;
+
+    font-family: Poppins;
+    font-size: 16px;
+
+    /* or 137% */
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 38px;
+    text-transform: capitalize;
+
+    color: #ffffff;
+    border-radius: 50%;
+    left: 238px;
+    bottom: 75px;
+    transform: translate(-500px, 300px);
+  }
+
+  #diversifyingTag {
+    display: none;
+  }
+
+  #diversifyingForTag {
+    display: block;
+    position: absolute;
+
+    left: 380px;
+    top: 399px;
+
+    font-family: Cormorant;
+    font-size: 160px;
+
+    /* identical to box height, or 105% */
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #ffffff;
+  }
+  #secureTag {
+    display: none;
+  }
+
+  #secureTagDesktop {
+    display: block;
+    position: absolute;
+
+    left: -30px;
+    top: 584.75px;
+
+    font-family: Cormorant;
+
+    font-size: 160px;
+
+    /* identical to box height, or 105% */
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #ffffff;
+  }
+
+  #diversifyingLine {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 38px;
+
+    /* identical to box height, or 190% */
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #ffffff;
+    position: absolute;
+    left: 500px;
+    bottom: 11.23vh;
+    margin: 0px;
+    white-space: nowrap;
+  }
+
+  .finalSection > .headerMobile {
+    background: none;
+    display: inline-flex;
+  }
+}
